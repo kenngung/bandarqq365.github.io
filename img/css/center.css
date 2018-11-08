@@ -1,0 +1,173 @@
+.step {
+  margin-top:5px;
+}
+
+.last_trans_wrapper {
+  background:url(../images/last-depo.png) no-repeat left, url(../images/last-wd.png) no-repeat right;
+  height:269px;
+  margin-top:10px;
+}
+
+.last_trans {
+  width:317px;
+  height:269px;
+  float:left;
+}
+
+.hdg_lastrans {
+  position:relative;
+  top:8px;
+  margin-left:50px;
+}
+
+.last_trans table {
+  border-spacing:0;
+  border-collapse:collapse;
+  margin-top:63px;
+  margin-bottom:12px;
+  margin-left:73px;
+  width:210px;
+}
+
+.last_trans table tr td {
+  padding:8px 5px 8px 4px;
+  color:#fff;
+  text-shadow: 0px 0px 7px #80f800, 0px 0px 7px #80f800;
+  font-size:18px;
+  text-transform: uppercase;
+}
+
+/* CSS CONDITIONAL FOR FIREFOX ONLY */
+@-moz-document url-prefix() {
+	.last_trans table {
+   margin-top:63px;
+ }
+
+ .last_trans table tr td {
+  padding:7px 5px 8px 4px;
+}
+}
+
+
+
+.last_trans table tr td:nth-child(2) {
+  color:#fff;
+}
+
+.last_trans table tr td:last-child {
+  text-align:right;
+}
+
+.sidecontact {
+  cursor: pointer;
+  position: fixed;
+  left:-185px;
+  z-index: 999;
+  top: 15%;
+  width: 230px;
+  height: 600px;
+  background: url(../images/contact.png) no-repeat; 
+  transition-duration: 0.5s;
+}
+
+.sidecontact:hover {
+  left: 0;
+}
+
+.sidecontact ul, .sidecontact li {
+  margin:0; padding:0; list-style:none;
+}
+
+.sidecontact table {
+  padding: 10px 30px;  
+}
+
+.sidecontact td, .sidecontact td a {
+  color:#fff;
+  font-weight:normal;
+  text-shadow:1px 1px 1px #1f0c00;
+  font-size:14px;
+  line-height: 65px;
+  text-transform:uppercase;
+}
+
+.sidecontact td {
+  margin-bottom:1px;
+  height: 50px;
+  padding:0px 20px 0px 57px;
+}
+
+.phone {
+  background:url(../images/phone.html) no-repeat left top;
+}
+
+.wa {
+  background:url(../images/wa.html) no-repeat left top;
+}
+
+.bbm {
+  background:url(../images/bbm.html) no-repeat left top;
+}
+
+.ym {
+  background:url(../images/ym.html) no-repeat left top;
+}
+
+.line {
+  background:url(../images/line.html) no-repeat left top;
+}
+
+.wechat {
+  background:url(../images/wechat.html) no-repeat left top;
+}
+
+.twitter {
+  background:url(../images/twitter.html) no-repeat left top;
+}
+
+.fb {
+  background:url(../images/fb.html) no-repeat left top;
+}
+
+.whatsapp {
+  background:url(../images/whatsapp.html) no-repeat left top;
+}
+
+/* jackpot */
+.jackpot-wrapper {
+  padding-top: 5px;
+}
+
+.jackpot {
+  width: 100%;
+  height:175px;
+  margin:13px auto 5px auto;
+  background:url(../images/jackpot.png) no-repeat center left;
+  display: table;
+}
+
+.totaljackpot, .totaljackpot2, .totaljackpot3 {
+  color:#fff;
+  font-size:42px;
+  line-height: 40px;
+  text-align:left;
+  font-weight:normal;
+  font-family: adamGorryLights;
+  text-shadow: 3px 3px 4px #000;
+  margin-top: 90px;
+}
+
+.totaljackpot {
+  margin-left:40px;
+}
+
+.totaljackpot2 {
+  left:444px;
+}
+
+.totaljackpot3 {
+  left:734px;
+}
+
+
+

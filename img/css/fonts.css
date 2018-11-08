@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'franklinGothicDemiCond';
+    src: url('../fonts/franklingothicdemicond/franklingothicdemicond.eot');
+    src: url('../fonts/franklingothicdemicond/franklingothicdemicondd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/franklingothicdemicond/franklingothicdemicond.woff') format('woff'),
+         url('../fonts/franklingothicdemicond/franklingothicdemicond.ttf') format('truetype'),
+         url('../fonts/franklingothicdemicond/franklingothicdemicond.svg#franklingothicdemicond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'adamGorryLights';
+    src: url('../fonts/adamgorrylights/adamgorrylights.eot');
+    src: url('../fonts/adamgorrylights/adamgorrylightsd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/adamgorrylights/adamgorrylights.woff') format('woff'),
+         url('../fonts/adamgorrylights/adamgorrylights.ttf') format('truetype'),
+         url('../fonts/adamgorrylights/adamgorrylights.svg#adamgorrylights') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+

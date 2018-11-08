@@ -1,0 +1,43 @@
+.footer {
+margin-top:0px;
+margin-bottom:10px;
+font-size:14px;
+}
+
+.footlogo {
+margin:0 10px;
+}
+
+.footbank {
+margin-top:27px;
+margin-bottom:10px;
+}
+
+ul.footnav, ul.footnav li {
+margin:0;
+padding:0;
+list-style:none;
+margin-bottom:5px;
+}
+
+ul.footnav li {
+float:left;
+border-left:1px solid #fff; 
+padding:0 8px;
+line-height:10px;
+}
+
+ul.footnav li:first-child {
+border:none;
+padding-left:0;
+}
+
+ul.footnav li a {
+color:#fff;
+}
+
+.copyright {
+margin-top:10px;
+margin-bottom:5px;
+color:#fff;
+}

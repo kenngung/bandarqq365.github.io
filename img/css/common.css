@@ -1,0 +1,570 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+/*@font-face {
+  font-family: 'century-gothic';
+  src: url('../fonts/ufonts.com_century-gothic.eot');  IE9 Compat Modes 
+  src: url('../fonts/ufonts.com_century-gothic.eot?#iefix') format('embedded-opentype'),  IE6-IE8 
+       url('../fonts/ufonts.com_century-gothic.woff2') format('woff2'),  Super Modern Browsers 
+       url('../fonts/ufonts.com_century-gothic.woff') format('woff'),  Pretty Modern Browsers 
+       url('../fonts/ufonts.com_century-gothic.ttf')  format('truetype'),  Safari, Android, iOS 
+       url('../fonts/ufonts.com_century-gothic.svg#svgFontName') format('svg');  Legacy iOS 
+}*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	outline: 0px none;
+	background: none repeat scroll 0% 0% transparent;	
+	text-align:left;
+}
+html{
+  background:url(../img/bg-bandarqq365.jpg)no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background:url(../img/bg-bandarqq365.jpg) repeat-x;
+  background-color:#309132;*/
+  }
+body{
+	font-family:"Arial";
+	font-size:14px;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+}
+
+a img{
+	border:none;
+}
+ul {
+	list-style-type: none;
+}
+
+p{
+	text-align:justify;
+	color:	#fff;
+	
+}
+	
+}
+ul.promo-list{
+	list-style:none;
+	padding:0;
+	margin:0;
+	margin-top:33px;
+}
+
+ul.promo-list a img{
+	border:1px solid #689c19;
+}
+
+ul.promo-list li .promo-detail{
+	padding:15px;
+	background:#2b2c30;
+	border:1px solid #2b2c30;
+	border-top:none;
+	position:relative;
+	display:none;
+	font-size:12px;
+} 
+
+ul.promo-list li .promo-detail h3{
+	font-size:15px;
+	margin:0;
+	padding:0;
+	padding-top:8px;
+}
+ul.promo-list li .promo-detail h4{
+	font-size:13px;
+	margin:0;
+	padding:0;
+}
+
+.promo-detail .promo-countdown{
+	width:267px;
+	height:48px;
+	border:1px solid #8dc63f;
+	position:absolute;
+	left:100%;
+	margin-left: -274px;
+    top: 8px;
+}
+
+.promo-detail .promo-countdown ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	margin-left: 11px;
+    padding-top: 2px;
+}
+
+.promo-detail .promo-countdown ul li{
+	float:left;
+	width:32px;
+	font-size:11px;
+	text-align:center;
+	margin-right:2px;
+}
+
+.promo-detail .promo-countdown ul li span{
+	font-size:15px;
+	margin-bottom:2px;
+	line-height:25px;
+}
+
+.promo-detail .promo-countdown a{
+	display:block;
+	text-align:center;
+	width:122px;
+	height:27px;
+	position:absolute;
+	background:#8dc63f;
+	color:#fff;
+	left: 135px;
+    top: 8px;
+	line-height:28px;
+	-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+	text-decoration:none;
+	 transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+	font-size:11px;
+}
+
+.promo-detail .promo-countdown a:hover{
+	background:#666;
+	 transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.product-detail{
+	padding-top:27px;
+	padding-bottom:15px;
+	width:980px;
+	padding-left:44px;
+	margin: 0 auto;
+    position: relative;
+}
+
+.product-image{
+	float:left;
+	margin-left:8px;
+	width:447px;
+	margin-top:9px;
+	position:relative;
+	
+}
+
+.product-image img{
+	position:absolute;
+}
+
+.product-content{
+	width:440px;
+	float:left;
+	font-size:10px;
+}
+
+.product-content table{
+	border:1px solid #8dc63f; 	
+}
+
+.product-content th{
+	text-align:center;
+	background:#2b2c30;
+	padding:5px 0px;
+}
+
+.product-content td{
+	text-align:center;
+	padding:4px 0px;
+	background:#000;
+}
+
+.product-content tr:nth-child(odd) td{
+	background:#666;
+}
+
+.product-content .button{
+	width:122px;
+	height:27px;
+	display:block;
+	text-decoration:none;
+	background:#fff;
+	margin-top:1px;
+	text-align:center;
+	line-height:28px;
+	margin-left:9px;
+	-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+	color:#fff;
+	background:#8dc63f;
+	 transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+	float:left;
+}
+
+.product-content .button.blue{
+	background:#5773c0;	
+}
+
+.product-content .button:hover{
+	background:#2b2c30;
+	 transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.mask-product h2{
+	padding:0;
+	margin:0;
+	font-size:29px;
+	text-align:center;
+	padding-top:16px;
+	padding-bottom:23px;
+}
+	
+.mask-product .button-product{
+	display:block;
+	width:449px;
+	height:105px;
+	border:1px solid #8dc63f;
+	margin-left:86px;
+	float:left;
+	background:#8dc63f;
+	margin-bottom: 15px;
+}
+
+.mask-product .button-product:nth-child(odd){
+	margin-left:12px;
+}
+
+.mask-product .button-product .bg-logo{
+	float:right;
+	width:166px;
+	height:103px;
+	text-align:center;
+
+	transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.mask-product .button-product:hover .bg-logo,.mask-product .button-product.active .bg-logo{
+	background:#2b2c30;
+	transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.mask-product .button-product .bg-logo img{
+	margin-top:37px;
+}
+
+
+
+
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+	}	
+/* FF, Safari, Opera�p */
+
+.clearfix {
+	display:inline-block;
+	}
+/* IE7, MacIE5�p */
+
+/* The Following Hidden From MacIE \*/
+	* html .clearfix { height:1%; }
+	.clearfix { display:block; height:inherit; }
+
+.clear { 
+	clear: both; 
+	height: 0;
+}
+#sectionMenu{
+	width:100%;
+	height:54px;
+	background: url(../img/bg/menu.html) repeat-x;
+}
+#sectionMenu ul{
+	list-style:none;
+	text-align: center;
+}
+#sectionMenu ul li{
+	display: inline;
+}
+#sectionMenu ul li a{
+	display: inline-block;
+}
+
+#sectionWrapper{
+	width:937px;
+	height:auto;
+	position:relative;
+	margin:0 auto;
+}
+
+#sectionWrapper #sectionHeader{
+	width:937px;
+	height:130px;
+	position:relative;
+	margin:10px auto;
+}
+
+#sectionWrapper #sectionHeader #sectionLogo{
+	height:130px;
+	width:350px;
+	margin:0 auto;
+}
+#sectionWrapper #sectionHeader #sectionLogin{
+	width:622px;
+	height:36px;
+	position:absolute;
+	right:0px;
+	top:76px;
+	font-family:"Century Gothic";
+	
+}
+
+#sectionWrapper #sectionHeader #sectionLogin form input{
+	width:185px;
+	height:26px;
+	border:none;
+	padding:5px;
+	position:absolute;
+	font-size:14px;
+	border:none;
+	font-weight:bold;
+	color:#000;
+	background: #fff;
+	font-weight:bold;
+	top:0px;
+}
+#sectionWrapper #sectionHeader #sectionLogin form input.username{
+	left:0px;
+}
+#sectionWrapper #sectionHeader #sectionLogin form input.password{
+	left:203px;
+}
+#sectionWrapper #sectionHeader #sectionLogin form input.code{
+	left:355px;
+	width:60px;
+}
+#sectionWrapper #sectionHeader #sectionLogin form input.kode{
+	left:430px;
+	width:75px;
+	background:#292929;
+}
+
+#sectionWrapper #sectionHeader #sectionLogin form input[type="button"]{	
+	padding:0;
+	border:none;
+	cursor:pointer;
+	position:absolute;
+	width:105px;
+	height:36px;
+	top: 0;
+}
+#sectionWrapper #sectionHeader #sectionLogin form input#btn-login{
+	background:url(../img/btn/login.html) no-repeat;	
+	cursor:pointer;
+	right: 111px;
+	
+}
+#sectionWrapper #sectionHeader #sectionLogin form input#btn-register{
+	background:url(../img/btn/daftar.html) no-repeat;
+	cursor: pointer;
+	right: 0;
+}
+
+
+#sectionWrapper #sectionHeader .livechat{
+	position:absolute;
+	right:0px;
+	top:78px;
+}
+#sectionWrapper #sectionInfo{
+	height:36px;
+	width:887px;
+	padding:25px;
+	background:url(../img/bg/info.html) no-repeat;
+	margin:0 auto;
+}
+#sectionWrapper #sectionInfo marquee{
+	color:#fff;
+	font-size:16px;
+	line-height: 32px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	
+}
+
+#sectionWrapper #sectionContain-1{
+	width:907px;
+	height:264px;
+	padding:0 15px;
+	margin:0 auto;
+	position:relative;
+}
+
+#sectionWrapper #sectionContain-1 #sectionSlider{
+	width:623px;
+	height:264px;
+	float: left;
+	
+}
+#sectionWrapper #sectionContain-1 #sectionLogin{
+	float: right;
+	width: 282px;
+	height: 262px;
+	position: relative;
+	background: url(../img/bg/login.html) no-repeat;
+}
+#sectionWrapper #sectionContain-1 #sectionLogin form input{
+	width: 140px;
+	height: 22px;
+	padding:5px;
+	background: none;
+	border:none;
+	position: absolute;
+	left: 114px;
+}
+#sectionWrapper #sectionContain-1 #sectionLogin form input.username{
+	top:98px;
+}
+#sectionWrapper #sectionContain-1 #sectionLogin form input.password{
+	top:142px;
+}
+#sectionWrapper #sectionContain-1 #sectionLogin form img{
+	position: absolute;
+	top: 185px;
+}
+#sectionWrapper #sectionContain-1 #sectionLogin form img.register{
+	left: 17px;
+	}
+#sectionWrapper #sectionContain-1 #sectionLogin form img.login{
+	left: 147px;
+	}
+#sectionWrapper #sectionContain-1 #sectionSlider #jackpot .poker{
+	top:55px;
+}
+#sectionWrapper #sectionContain-1 #sectionSlider #jackpot .domino{
+	top:188px;
+}
+
+
+#sectionWrapper #sectionContain-2{
+	width:907px;
+	height:62px;
+	padding:15px;
+	position:relative;
+	margin:0 auto;
+}
+
+#sectionWrapper #sectionContain-2 .contact{
+	width:907px;
+	height:62px;
+	margin:0 auto;
+	position: relative;
+	background: url(../img/bar.html) no-repeat;
+}
+#sectionWrapper #sectionContain-2 .contact img{
+	float: right;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+#sectionWrapper #sectionContain-2 .contact ul{
+	list-style: none;
+	text-align: center;
+}
+#sectionWrapper #sectionContain-2 .contact ul li{
+	display: inline;
+	margin:0 20px;
+}
+#sectionWrapper #sectionJackpot{
+	width:937px;
+	height:87px;
+	position:relative;
+	margin:0 auto;
+	background: url(../img/jackpot.html) no-repeat;
+}
+#sectionWrapper #sectionJackpot .jackpot{
+	position: absolute;
+	line-height: 50px;
+	width: 294px;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	font-size: 40px;
+	top: 40px;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+#sectionWrapper #sectionJackpot .poker{
+	left: 0px;
+}
+#sectionWrapper #sectionJackpot .domino{
+	left: 325px;
+}
+#sectionWrapper #sectionJackpot .capsa{
+	right: 0px;
+}
+
+#sectionWrapper #sectionContain-3{
+	width:937px;
+	height:216px;
+	padding:15px;
+	position:relative;
+	margin:0 auto;
+	background: url(../img/transection.html) no-repeat;
+}
+#sectionWrapper #sectionContain-3 .transition{
+	width: 230px;
+	height: 110px;
+	position: absolute;
+	color: #fff;
+	top: 87px;
+}
+#sectionWrapper #sectionContain-3 .deposit{	
+	left: 35px;
+}
+#sectionWrapper #sectionContain-3 .withdraw{	
+	right: 50px;
+}
+#sectionWrapper #sectionContain-3 .transition table{
+	width: 230px;
+	border-collapse: collapse;
+}
+#sectionWrapper #sectionContain-3 .transition table td{
+	height: 20px;
+	vertical-align: middle;
+	font-family: arial;
+}
+#sectionWrapper  #footer{
+	width:960px;
+	margin:0 auto;
+	height:auto;
+}

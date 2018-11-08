@@ -1,0 +1,114 @@
+/* start HEADER - TOP */
+.logo {
+position:relative;
+margin-top:25px;
+margin-bottom: 10px;
+}
+
+#frmlogin {
+width:317px;
+height:301px;
+background:url(../images/bglogin.png) no-repeat;
+position:relative;
+margin-top:0px;
+}
+
+#username, #password, #code {
+position:absolute;
+background:none;
+border:none;
+height:38px;
+padding:0 5px;
+color:#000;
+font-size: 20px;
+}
+
+#username, #password {
+width:159px;
+}
+
+#username {
+top:104px;
+left:125px;
+}
+
+#password {
+top:159px;
+left:126px;
+}
+
+#code {
+width:38px;
+bottom:0px;
+left:227px;
+}
+
+.img_code {
+position:absolute;
+bottom:0px;
+right:0px;
+}
+
+#login {
+background:none;
+border:none;
+position:absolute;
+width:125px;
+height:43px;
+top:225px;
+left:167px;
+cursor:pointer;
+}
+
+.lupapass, .daftar {
+position:absolute;
+display:block;
+}
+
+.lupapass {
+top:5px;
+left:125px;
+width:85px;
+height:15px;
+}
+
+.daftar {
+left:27px;
+top:225px;
+width:125px;
+height:43px;
+display: block;
+}
+
+.runningtext {
+height:47px;
+margin:0px 0 15px 0;
+background: url(../images/bg_runningtext.png) no-repeat center right;
+position: relative;
+}
+
+.runningtext_content {
+height:47px;
+line-height:47px;
+padding:0 140px 0 125px;
+color:#fff;
+font-size: 16px;
+}
+
+.download-aplikasi {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 135px;
+  height: 47px;
+  cursor: pointer;
+  border-radius:5px;
+  background:none; border:none;
+  background:#000; opacity:0;
+}
+
+.download-aplikasi:active {
+  opacity:0.5;
+}
+
+/* end HEADER - TOP */
